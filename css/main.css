@@ -1,0 +1,49 @@
+div, p, input, button, form, span,a, ul, li {
+	box-sizing: border-box;
+}
+
+.logo {
+	height: 50px;
+	width: 151px;
+}
+
+h1 {
+	color: red;
+}
+
+.block-blue {
+	color: #fff;
+	width: 95px;
+	background-color: blue;
+	font-size: 15px;
+	margin-bottom: 100px;
+}
+
+p span {
+	color: red;
+}
+
+h2 {
+	background-color: #008001;
+	color: white;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.big-pd {
+	padding-left: 40px;
+	padding: 45px;
+	padding-bottom: 45px;
+}
+
+.big-ul li {
+	font-size: 30px;
+	border: 1px solid;
+	bottom-top: 10px;
+}
+
+.big-ul {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
