@@ -84,8 +84,8 @@ p {
 }
 
 .learn{
-padding-top: 108px;
-padding-bottom: 120px;
+	padding-top: 108px;
+	padding-bottom: 120px;
 }
 
 .section-title{
@@ -143,8 +143,8 @@ padding-bottom: 120px;
 .btn-form{
     margin-left: auto;
     margin-right: auto;
-	border: 1px solid #ffd429;	
-	width: 340px;
+    border: 1px solid #ffd429;	
+    width: 340px;
     
 }
 .form{
