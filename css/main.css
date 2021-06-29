@@ -1,49 +1,168 @@
-div, p, input, button, form, span,a, ul, li {
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
 	box-sizing: border-box;
 }
 
-.logo {
-	height: 50px;
-	width: 151px;
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
 }
 
-h1 {
-	color: red;
+p {
+	line-height: 1.65em;
 }
 
-.block-blue {
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgb(77,190,254);
+	background: -moz-linear-gradient(-45deg,  rgba(77,190,254,1) 0%, rgba(55,143,217,1) 100%, rgba(125,185,232,1) 100%, rgba(30,87,153,1) 100%);
+	background: -webkit-linear-gradient(-45deg,  rgba(77,190,254,1) 0%,rgba(55,143,217,1) 100%,rgba(125,185,232,1) 100%,rgba(30,87,153,1) 100%);
+	background: linear-gradient(135deg,  rgba(77,190,254,1) 0%,rgba(55,143,217,1) 100%,rgba(125,185,232,1) 100%,rgba(30,87,153,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbefe', endColorstr='#1e5799',GradientType=1 );
+	padding-top: 72px;
+	padding-bottom: 50px;
 	color: #fff;
-	width: 95px;
-	background-color: blue;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 140px;
+	width: 578px;
+}
+
+.title {
+	width: 600px;
+	font-size: 37px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	margin-bottom: 16px;
+	margin-top: 47px;
+	width: 380px;
+	
+}
+
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	color: #000;
 	font-size: 15px;
-	margin-bottom: 100px;
+	font-weight: 900;
+	display: block;
+	margin-top: 45px;
+	width: 215px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	
 }
 
-p span {
-	color: red;
+.btn:hover {
+	background: #d9860e;
 }
 
-h2 {
-	background-color: #008001;
-	color: white;
-	padding-left: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+.learn{
+padding-top: 108px;
+padding-bottom: 120px;
 }
 
-.big-pd {
-	padding-left: 40px;
-	padding: 45px;
-	padding-bottom: 45px;
-}
-
-.big-ul li {
+.section-title{
+	text-align: center;
 	font-size: 30px;
-	border: 1px solid;
-	bottom-top: 10px;
 }
 
-.big-ul {
-	margin-top: 30px;
-	margin-bottom: 30px;
+.skills{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 76px;
+}
+
+.skill-title{
+	font-size: 19px;
+	padding-top: 15px;
+}
+
+.skill-text{
+    margin-top: 24px;
+}
+
+.skill{
+    width: 300px;
+    background: url('../img/icontime.jpg') no-repeat top;
+    padding-top: 70px;
+}
+
+.skill-beach{
+    background: url('../img/iconbeach.jpg') no-repeat top;
+}
+.skill-launch{
+    background: url('../img/iconlaunch.jpg') no-repeat top;
+}
+.mail{
+    background: #ecf3f8;
+}
+#form{
+    padding-top: 105px;
+}
+.input{
+    width: 340px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+    background: white;
+    height: 48px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+}
+.btn-form{
+    margin-left: auto;
+    margin-right: auto;
+		
+	width: 340px;
+    
+}
+.form{
+    padding-top: 65px;
+    
+}
+.second-cont{
+    padding-bottom: 102px;
+}
+
+.footer{
+    background: #164d7a;
+    color: white;
+    text-align: center;
+    
+}
+.allrights{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
 }

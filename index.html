@@ -2,50 +2,65 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Домашняя работа</title>
+	<title>Home work 4</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header>
-		<img class="logo" src="img/logo.jpg" alt="Logo WAYUP">
-		<h1 class="red">Вступление H1</h1>
-		<div class="block-blue">Это текст моего второго домашнего задания.
+	<header id="header" class="header">
+		<div class="container">
+			<img src="img/logo.png" alt="WAYUP" class="logo">
+			<div class="wrapper">
+				<div class="offer">
+					<h1 class="title">
+						С помощью верстки<br>я создам ту жизнь, о которой<br><span>мечтаю!</span>
+					</h1>
+					<p class="intro">
+						Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!
+					</p>
+					<a href="#" class="btn">Двигаться к мечте!</a>
+				</div>
+				<img src="img/desktop.png" alt="Code desktop" class="desktop">
+			</div>
 		</div>
-		<p>Не верится, но мне уже удается писать свой <span>первый код на HTML.</span></p>
 	</header>
-	
-	<section>
-		<h2>Что дальше? H2</h2>
-		<p>Дальше, я буду получать все больше и больше опыта в разработке сайтов, чтобы достичь новых вершин! <a href="https://google.com.ua" target="_blank">Прочитать больше в Google</a></p>
+	<section id="learn" class="learn">
+        <div class="container">
+            <h2 class="section-title">Что меня ждет впереди</h2>
+				<div class="skills">
+                    <div class="skill">
+                        <h3 class="skill-title">Свободное время</h3>
+                        <div class="skill-text">Мне нужно свободное время на семью и самое настоящее</div>
+                    </div>
+                    <div class="skill skill-beach">
+                        <h3 class="skill-title">Яркие путешествия</h3>
+                        <div class="skill-text">Работать откуда угодно - что может быть лучше?</div>
+                    </div>
+                    <div class="skill skill-launch">
+                        <h3 class="skill-title">Создание ценности</h3>
+                        <div class="skill-text">Нет ничего сильнее, чем жить не просто так, создавая ценность</div>
+                    </div>
+                </div>
+		</div>
     </section>
-
-    <section>
-		<h2 class="big-pd">Что я буду уметь? H2</h2>
-
-		<p>Я смогу создавать вот такие замечательные формы:</p>
-
-		<form action="#">
-			<input type="text" name="name" placeholder="Имя" required>
-			<input type="email" name="email" placeholder="E-mail" required>
-			<input type="tel" name="phone" placeholder="Телефон" required>
-			<button type="submit">Отправить форму</button>
-		</form>
-
-		<p>А также научусь создавать списки:</p>
-
-		<ul class="big-ul">
-			<li>С одним пунктом</li>
-			<li>С несколькими пунктами</li>
-			<li>И даже с тремя отдельными пунктами</li>
-		</ul>
 	</section>
-
-	<footer>
-		<h2>Отличное начало! H2</h2>
-
-		<a href="https://wayup.in/cabinet/course10-6-wave/unit1/lesson1" target="_blank">Перейти на страницу первого занятия курса</a>
-	</footer>
-	
+    <section id="mail" class="mail">
+        <div class="container second-cont">
+            <h2 class="section-title" id="form">Форма заказа билета в будущее</h2>
+            <form action="#" class="form">
+                <input type="text" name="name" class="input" placeholder="Имя" required>
+                <input type="email" name="email" class="input" placeholder="E-mail" required>
+                <input type="tel" name="tel" class="input" placeholder="Телефон" required>
+                <input type="text" name="where" class="input" placeholder="Куда я полечу в ближайшее время?" required>
+				<a href="#" class="btn btn-form">Двигаться к мечте!</a>
+            </form>
+            
+        </div>
+    </section>
+	<footer id="footer" class="footer">
+        <div class="container">
+                <p class="allrights">©Все мои мечты зашищены моим трудолюбием</p>
+        </div>
+    </footer>
 </body>
 </html>
