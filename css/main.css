@@ -40,15 +40,16 @@ p {
 .wrapper {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .offer {
-	margin-top: 140px;
+	/*margin-top: 140px;*/
 	width: 578px;
 }
 
 .title {
-	width: 600px;
+	width: 560px;
 	font-size: 37px;
 }
 
@@ -82,11 +83,12 @@ p {
 
 .btn:hover {
 	background: #d9860e;
+	color: white;
 }
 
 .learn{
-	padding-top: 108px;
-	padding-bottom: 120px;
+padding-top: 108px;
+padding-bottom: 120px;
 }
 
 .section-title{
@@ -144,8 +146,8 @@ p {
 .btn-form{
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #ffd429;	
-    width: 340px;
+	border: 1px solid #ffd429;	
+	width: 340px;
     
 }
 .form{
@@ -159,11 +161,71 @@ p {
 .footer{
     background: #164d7a;
     color: white;
-    text-align: center;
-    
+    text-align: center;   
 }
 .allrights{
     padding-top: 60px;
     padding-bottom: 60px;
     margin-bottom: 0px;
+}
+
+/*992px - 1200px*/
+@media screen and (max-width: 1200px){
+	.container{
+		width: 960px;
+	}
+	.desktop {
+		width: 400px;
+	}
+	.title {
+		margin-top: 60px;
+	}
+}
+/*768px - 992px*/	
+@media screen and (max-width: 992px){
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: auto;
+	}
+	.title {
+		width: auto;
+		margin-top: 60px;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-top: 30px;
+	}	
+}
+/*576px - 768px*/
+@media screen and (max-width: 768px){
+	.container{
+		width: 540px;
+	}
+}
+/*0px - 576px*/
+@media screen and (max-width: 576px){
+	.container{
+		width: 100%;
+		/*padding: 0, 15px;*/
+	}
+	.input{
+		width: 300px;
+	}
+	.btn-form {
+		width: 300px;
+	}
+	.desktop {
+		width: 300px;
+	}
 }
