@@ -44,7 +44,6 @@ p {
 }
 
 .offer {
-	/*margin-top: 140px;*/
 	width: 578px;
 }
 
@@ -64,7 +63,6 @@ p {
 	
 }
 
-
 .btn {
 	font-family: 'Montserrat', sans-serif;
 	background: #ffd429;
@@ -77,8 +75,7 @@ p {
 	padding: 19px 0;
 	text-align: center;
 	text-decoration: none;
-	transition: all 0.5s ease;
-	
+	transition: all 0.5s ease;	
 }
 
 .btn:hover {
@@ -87,8 +84,8 @@ p {
 }
 
 .learn{
-padding-top: 108px;
-padding-bottom: 120px;
+	padding-top: 108px;
+	padding-bottom: 120px;
 }
 
 .section-title{
@@ -121,15 +118,19 @@ padding-bottom: 120px;
 .skill-beach{
     background: url('../img/iconbeach.jpg') no-repeat top;
 }
+
 .skill-launch{
     background: url('../img/iconlaunch.jpg') no-repeat top;
 }
+
 .mail{
     background: #ecf3f8;
 }
+
 #form{
     padding-top: 105px;
 }
+
 .input{
     width: 340px;
     display: block;
@@ -143,6 +144,7 @@ padding-bottom: 120px;
     font-family: 'Ubuntu';
     font-weight: 400;
 }
+
 .btn-form{
     margin-left: auto;
     margin-right: auto;
@@ -151,9 +153,9 @@ padding-bottom: 120px;
     
 }
 .form{
-    padding-top: 65px;
-    
+    padding-top: 65px;  
 }
+
 .second-cont{
     padding-bottom: 102px;
 }
@@ -216,8 +218,8 @@ padding-bottom: 120px;
 /*0px - 576px*/
 @media screen and (max-width: 576px){
 	.container{
-		width: 100%;
-		/*padding: 0, 15px;*/
+		width: 90%;
+		padding: 0, 15px;
 	}
 	.input{
 		width: 300px;
